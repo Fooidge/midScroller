@@ -22,3 +22,4 @@ gulp.task 'default', () ->
 
 gulp.task 'watch', () ->
 	gulp.watch './src/main.coffee', ['default']
+	gulp.watch './sass/master.scss', ['sass']
